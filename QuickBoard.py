@@ -27,7 +27,7 @@ class QuickBoard(tk.Tk):
         frame.tkraise()
 
     def OpenYoutube(self):
-        os.system("sudo xdc-open https://www.youtube.com")
+        os.system("sudo xdg-open https://www.youtube.com")
 
     def Shutdown(self):
         self.show_frame("ShutdownPage")
